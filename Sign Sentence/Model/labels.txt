@@ -1,0 +1,13 @@
+0 I
+1 how
+2 go
+3 walk
+4 what
+5 father
+6 name
+7 love
+8 eat
+9 beautiful
+10 stop
+11 you
+12 hi
