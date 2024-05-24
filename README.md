@@ -10,7 +10,7 @@ This project uses gesture recognition techniques to translate American Sign Lang
 - [Dataset](#dataset)
 - [Acknowledgements](#acknowledgements)
 
-## Overview {#overview}
+## Overview <a name="overview"></a>
 The Sign Language to Text using Gesture Detection project utilizes Convolutional Neural Networks (CNN) to classify and translate sign language gestures into text. This can help bridge the communication gap between deaf and hearing individuals.
 
 ## Features <a name="features"></a>
@@ -19,7 +19,7 @@ The Sign Language to Text using Gesture Detection project utilizes Convolutional
 - High accuracy in recognizing ASL gestures
 - Easily extendable for additional gestures
 
-## Installation {#installation}
+## Installation <a name="installation"></a>
 1. Clone the repository:
    ```bash
    git clone https://github.com/Namans12/Sign-Language-to-Text-using-Gesture-Detection.git
@@ -37,7 +37,7 @@ The Sign Language to Text using Gesture Detection project utilizes Convolutional
    conda install --file requirements_conda.txt
    ```
 
-## Usage {#usage}
+## Usage <a name="usage"></a>
 1. Collect data using the provided script:
    ```bash
    Copy code
@@ -54,12 +54,12 @@ The Sign Language to Text using Gesture Detection project utilizes Convolutional
    python Camera Feed.py
    ```
 
-## Dataset {#dataset}
+## Dataset <a name="dataset"></a>
 The dataset used for training is custom made. You can download the dataset from the following links:
 - Train : https://drive.google.com/drive/u/1/folders/1-XTAjPPRPFeRqu3848z8dMXaolILWizn
 - Test : https://drive.google.com/drive/u/1/folders/18e1F1n1SWPF8lUF8pCKdUzSzKAbmSbVN
 
-## Acknowledgements {#acknowledgements}
+## Acknowledgements <a name="acknowledgements"></a>
 - [Mediapipe](https://github.com/google-ai-edge/mediapipe) for hand gesture recognition
 - [TensorFlow](https://www.tensorflow.org/) and [Keras](https://keras.io/) for model training and evaluation
 - [OpenCV](https://opencv.org/) for image processing
