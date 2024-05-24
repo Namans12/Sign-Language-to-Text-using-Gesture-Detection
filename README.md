@@ -64,4 +64,4 @@ The dataset used for training is custom made. You can download the dataset from 
 - TensorFlow and Keras for model training and evaluation
 - OpenCV for image processing
 
-For more details, check the project [documentation](#Docs)
+For more details, check the project [documentation](https://github.com/Namans12/Sign-Language-to-Text-using-Gesture-Detection/tree/a38a0da9a7499b5003bf320be62c97a3a4680215/Docs)
