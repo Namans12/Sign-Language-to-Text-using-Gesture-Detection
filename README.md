@@ -64,4 +64,4 @@ The dataset used for training is custom made. You can download the dataset from 
 - TensorFlow and Keras for model training and evaluation
 - OpenCV for image processing
 
-For more details, check the project [documentation](#documentation)
+For more details, check the project [documentation](#Docs)
