@@ -10,16 +10,16 @@ This project uses gesture recognition techniques to translate American Sign Lang
 - [Dataset](#dataset)
 - [Acknowledgements](#acknowledgements)
 
-## Overview
+## Overview {#overview}
 The Sign Language to Text using Gesture Detection project utilizes Convolutional Neural Networks (CNN) to classify and translate sign language gestures into text. This can help bridge the communication gap between deaf and hearing individuals.
 
-## Features
+## Features <a name="features"></a>
 - Real-time gesture detection and translation
 - Custom dataset creation and training
 - High accuracy in recognizing ASL gestures
 - Easily extendable for additional gestures
 
-## Installation
+## Installation {#installation}
 1. Clone the repository:
    ```bash
    git clone https://github.com/Namans12/Sign-Language-to-Text-using-Gesture-Detection.git
@@ -37,7 +37,7 @@ The Sign Language to Text using Gesture Detection project utilizes Convolutional
    conda install --file requirements_conda.txt
    ```
 
-## Usage
+## Usage {#usage}
 1. Collect data using the provided script:
    ```bash
    Copy code
@@ -54,14 +54,14 @@ The Sign Language to Text using Gesture Detection project utilizes Convolutional
    python Camera Feed.py
    ```
 
-## Dataset
+## Dataset {#dataset}
 The dataset used for training is custom made. You can download the dataset from the following links:
 - Train : https://drive.google.com/drive/u/1/folders/1-XTAjPPRPFeRqu3848z8dMXaolILWizn
 - Test : https://drive.google.com/drive/u/1/folders/18e1F1n1SWPF8lUF8pCKdUzSzKAbmSbVN
 
-## Acknowledgements
-- Mediapipe for hand gesture recognition
-- TensorFlow and Keras for model training and evaluation
-- OpenCV for image processing
+## Acknowledgements {#acknowledgements}
+- [Mediapipe](https://github.com/google-ai-edge/mediapipe) for hand gesture recognition
+- [TensorFlow](https://www.tensorflow.org/) and [Keras](https://keras.io/) for model training and evaluation
+- [OpenCV](https://opencv.org/) for image processing
 
-For more details, check the project [documentation](https://github.com/Namans12/Sign-Language-to-Text-using-Gesture-Detection/tree/a38a0da9a7499b5003bf320be62c97a3a4680215/Docs)
+For more details, check the project [documentation](https://github.com/Namans12/Sign-Language-to-Text-using-Gesture-Detection/tree/a38a0da9a7499b5003bf320be62c97a3a4680215/Docs).
