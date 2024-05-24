@@ -7,7 +7,6 @@ This project uses gesture recognition techniques to translate American Sign Lang
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Dataset](#dataset)
 - [Acknowledgements](#acknowledgements)
 
 ## Overview <a name="overview"></a>
@@ -53,12 +52,7 @@ The Sign Language to Text using Gesture Detection project utilizes Convolutional
    Copy code
    python Camera Feed.py
    ```
-
-## Dataset <a name="dataset"></a>
-The dataset used for training is custom made. You can download the dataset from the following links:
-- Train : https://drive.google.com/drive/u/1/folders/1-XTAjPPRPFeRqu3848z8dMXaolILWizn
-- Test : https://drive.google.com/drive/u/1/folders/18e1F1n1SWPF8lUF8pCKdUzSzKAbmSbVN
-
+   
 ## Acknowledgements <a name="acknowledgements"></a>
 - [Mediapipe](https://github.com/google-ai-edge/mediapipe) for hand gesture recognition
 - [TensorFlow](https://www.tensorflow.org/) and [Keras](https://keras.io/) for model training and evaluation
