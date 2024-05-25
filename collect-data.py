@@ -21,9 +21,7 @@ for i in string.ascii_uppercase:
     if not os.path.exists("data/test/" + i):
         os.makedirs("data/test/"+i)
     
-
-
-# Train or test 
+# Train
 mode = 'train'
 directory = 'data/'+mode+'/'
 minValue = 70
