@@ -6,7 +6,7 @@ pose = mp.solutions.pose.Pose(min_detection_confidence=0.5, min_tracking_confide
 
 # Define a function to process a frame
 def process_frame(frame, pose):
-    # Convert the frame to RGB color space
+    # Convert the frame to RGB color-space
     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
     # Process the frame with the pose estimation module
